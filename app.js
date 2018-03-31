@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 
 //db
-mongoose.connect('mongodb://localhost:27017/donbada');
+mongoose.connect('mongodb://localhost:27017/eka_bangimoon');
 const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'err'));
